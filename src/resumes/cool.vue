@@ -151,6 +151,7 @@
               <span class="section-content__header"> {{ project.name }} </span>
               <span class="section-content__subheader">{{ project.platform }}</span>
               <span class="section-content__text"> {{ project.description }} </span>
+              <span class="section-content__text--light"> {{ project.url }} </span>
             </a>
           </div>
         </div>
