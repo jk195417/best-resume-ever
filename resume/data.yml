@@ -3,13 +3,19 @@ name:
   first: 楊竑昕
   middle:
   last:
+
 about: |
-  HI，我來自台灣高雄，大學時系上接觸到的程式是要不是單晶片 8051、PLC 控制器就是 Arduino，
-  那時覺得跟電路設計比起來，寫程式在調試的過程方便多了，
-  因此我開始對本科系外的程式設計產生了興趣，選修了許多資工的基礎課程，甚至還取得了第二學程。
-  大三時把資工的基本功漸漸的練起來，也到一個新創物聯網公司實習，與業界接軌。
-  閒暇之餘喜歡參與程式社群認識業界前輩；關注技術趨勢文章；翻翻 Github Trendings；做些 Side Project 等等。
-  擅長的語言是比較冷門的 Ruby，有自信其他的語言可以快速上手，希望你會喜歡我與我的作品。
+  <p>
+  我的主力語言為 Ruby，從 2014 年開始接觸 Rails 開發網站後端。</br>
+  除了會使用 ORM 存取資料庫外，也很熟悉 SQL 語法、索引、鎖、交易、綱要設計與正規化。</br>
+  能熟練的用 Git 做版控和團隊開發。有部屬至 AWS、GCP 與 Heroku 的經驗。</br>
+  能自行閱讀文件使用各方的 HTTP API，也設計過 API 讓前端使用。</br>
+  前端部分的 HTML、JavaScript、CSS 是基本，能夠客製化 Bootstrap SCSS 的變數，了解如何使用 Vue 框架。</br>
+  </p>
+  <p>
+  論文以 Python 文字探勘 package 搭配 Flask 提供 web service 給 Rails 串接。</br>
+  </p>
+
 position: Software Developer
 
 birth:
@@ -24,7 +30,7 @@ experience:
 
 education:
 - degree: 管理學碩士
-  timeperiod: 2017 年 9 月 - 2019 年 6 月
+  timeperiod: 2017 年 9 月 - 2019 年 9 月
   description: 資訊管理學系研究所，中山大學，高雄，台灣。
 - degree: 工學學士
   timeperiod: 2013 年 9 月 - 2017 年 6 月
@@ -39,8 +45,6 @@ skills:
   level: 96
 - name: JavaScript
   level: 95
-- name: Bootstrap
-  level: 95
 - name: Git
   level: 93
 - name: Postgres
@@ -49,7 +53,11 @@ skills:
   level: 90
 - name: Vue
   level: 80
-  
+- name: Python
+  level: 80
+- name: TOEIC 750
+  level: 75
+
 # knowledge: |
 #   網站後端:
 #     - Rails(Ruby)
@@ -114,45 +122,51 @@ skills:
 #     - bash
 
 projects:
-- name: caten-church
-  platform: Rails
-  description: 教會會員管理與活動報名系統
-  url: https://github.com/CatenChurch/caten-church
-- name: danmu-classroom-screen
-  platform: Line + Rails
-  description: 彈幕教室，讓使用者透過 Line 發送彈幕至螢幕上
-  url: https://github.com/danmu-classroom/danmu-classroom-screen
 - name: dcard-crawler
-  platform: Ruby
-  description: 學術用途，爬取 Dcard 上的文章與留言做數據分析。
+  platform: Rails
+  description: 碩論，爬取 Dcard 上的文章與留言，使用百度 AI 平台做情緒分析，並用 BERT 輸出文字向量，做語意分群。
   url: https://github.com/jk195417/dcard-crawler
 - name: traffic-signs-control-system
-  platform: Linux
-  description: 大學專題 Raspberry pi + Sinatra + Arduino 網站遙控 BLE-LED
+  platform: Raspberry Pi, Arduino
+  description: 大學專題，以 Raspberry pi 作為中控中心，以藍芽廣播控制各路口的 Arduino 更換燈號。
   url: https://github.com/jk195417/traffic-signs-control-system
+- name: danmu-classroom-screen
+  platform: Rails, Electron
+  description: 彈幕教室，用 Rails 做 chatbot server，Redis 作為 Message queue，Electron 做桌面應用顯示彈幕，讓使用者透過 Line 發送彈幕至螢幕上。
+  url: https://github.com/danmu-classroom/danmu-classroom-screen
+- name: caten-church
+  platform: Rails
+  description: 教會活動報名與會員管理系統。
+  url: https://github.com/CatenChurch/caten-church
+- name: lottery
+  platform: Vue
+  description: Vue 做的抽獎工具，可以匯出或匯入 JSON 檔，藉此儲存或讀取紀錄。
+  url: https://github.com/jk195417/lottery
 
-# hobbies:
-# - name: Video Games
-#   iconClass: fa fa-gamepad
-#   url: https://example.com
-#
-# - name: Drawing
-#   iconClass: fa fa-pencil
-#   url: https://example.com
+hobbies:
+- name: 電玩
+  iconClass: fas fa-gamepad
+- name: 籃球
+  iconClass: fas fa-basketball-ball
+- name: 電影與電視劇
+  iconClass: fas fa-tv
+- name: 逛 Github explore
+  iconClass: fab fa-github
 
-contributions:
-- name: best-resume-ever
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
-  url: https://github.com/salomonelli/best-resume-ever
+# contributions:
+# - name: best-resume-ever
+#   description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
+#   url: https://github.com/salomonelli/best-resume-ever
 
 contact:
   email: yang.hong.xin.tw@gmail.com
   phone: 0953354119
   street: 高雄市梓官區嘉展路 299 巷 5 號
   city: 台灣
-  website: https://yanghongxin.com/blog
+  website: https://blog.yang-hong-xin.com/
   github: jk195417
   linkedin: hongxin-yang
+
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
 # lang: en
 lang: zh-tw

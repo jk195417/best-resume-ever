@@ -14,8 +14,7 @@
           </div>
 
           <div class="section-content section-content--plain">
-            {{ person.about }}
-            <br/>
+            <div v-html="person.about"></div>
             <br/>
             {{ person.knowledge }}
           </div>

@@ -57,7 +57,7 @@
     <div id="resume-footer">
         <div v-if="person.about">
             <h2>{{ lang.about }}</h2>
-            <p>{{person.about}}</p>
+            <p v-html="person.about"></p>
         </div>
     </div>
 </div>
@@ -210,7 +210,7 @@ export default Vue.component(name, getVueOptions(name));
     }
     #resume-footer {
         padding: 20px 100px;
-        height: 135px;
+        height: 235px;
         background-color: purple;
         box-shadow: inset 0px 0px 100px #301030;
         box-sizing: border-box;

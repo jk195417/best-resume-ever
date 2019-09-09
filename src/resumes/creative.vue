@@ -15,7 +15,7 @@
       </div>
 
       <div class="multi-line-txt">
-        {{ person.about }}
+        <div v-html="person.about"></div>
       </div>
 
       <div class="multi-line-txt">
