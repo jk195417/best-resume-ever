@@ -6,11 +6,11 @@ name:
 
 about: |
   <p>
-  我的主力語言為 Ruby，從 2014 年開始接觸 Rails 開發網站後端。</br>
-  除了會使用 ORM 存取資料庫外，也很熟悉 SQL 語法、索引、鎖、交易、綱要設計與正規化。</br>
-  能熟練的用 Git 做版控和團隊開發。有部屬至 AWS、GCP 與 Heroku 的經驗。</br>
-  能自行閱讀文件使用各方的 HTTP API，也設計過 API 讓前端使用。</br>
-  前端部分的 HTML、JavaScript、CSS 是基本，能夠客製化 Bootstrap SCSS 的變數，了解如何使用 Vue 框架。</br>
+  我主要使用 Ruby，從 2014 年開始接觸 Rails 開發網站後端。</br>
+  也有能力進行前端開發、編譯與打包，熟悉 Vue 框架與 Bootstrap。</br>
+  除了使用 ORM 存取資料庫外，也熟悉 SQL 語法、索引、鎖、交易、綱要設計與正規化。</br>
+  能以 Git 做版控、協作與部署，有部屬至 AWS、GCP 與 Heroku 的經驗。</br>
+  能自行閱讀英文文件使用第三方的 HTTP API，也設計過 API 讓前端架接。</br>
   </p>
   <p>
   論文以 Python 文字探勘 package 搭配 Flask 提供 web service 給 Rails 串接。</br>
@@ -25,7 +25,7 @@ birth:
 experience:
 - company: 五倍紅寶石
   position: Web Developer
-  timeperiod: 2017 年 7 月 - 2017 年 11 月
+  timeperiod: 2017 年 8 月 - 2017 年 11 月
   description: 與兩位資深工程師和一位 PM，在 3 個月的專案期限內為 dappei.com 開發新功能，包含前後端與資料庫。
 
 education:
@@ -166,6 +166,7 @@ contact:
   website: https://blog.yang-hong-xin.com/
   github: jk195417
   linkedin: hongxin-yang
+  medium: https://medium.com/@yang.hong.xin
 
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
 # lang: en
